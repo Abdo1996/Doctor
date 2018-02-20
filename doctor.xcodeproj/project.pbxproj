@@ -14,6 +14,7 @@
 		4C181F3B20323E3D006743F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C181F3A20323E3D006743F3 /* Assets.xcassets */; };
 		4C181F3E20323E3D006743F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C181F3C20323E3D006743F3 /* LaunchScreen.storyboard */; };
 		4C1B5C922036312900F1C96E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B5C912036312900F1C96E /* SignUpVC.swift */; };
+		533379F4203C965F0012A7FC /* FirstLastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533379F3203C965F0012A7FC /* FirstLastVC.swift */; };
 		BC74CE8C203870C7002DFEF1 /* validationTxtfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74CE84203870C7002DFEF1 /* validationTxtfile.swift */; };
 		BC74CE8D203870C7002DFEF1 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74CE85203870C7002DFEF1 /* AppManager.swift */; };
 		BC74CE8E203870C7002DFEF1 /* UIappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74CE86203870C7002DFEF1 /* UIappViewController.swift */; };
@@ -49,6 +50,7 @@
 		4C181F3D20323E3D006743F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C181F3F20323E3D006743F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C1B5C912036312900F1C96E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		533379F3203C965F0012A7FC /* FirstLastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLastVC.swift; sourceTree = "<group>"; };
 		54F1AF61019F89A42B16A43B /* Pods-doctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-doctor/Pods-doctor.release.xcconfig"; sourceTree = "<group>"; };
 		7C9F9A7BA2B2840186E14E1D /* Pods_doctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC74CE84203870C7002DFEF1 /* validationTxtfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validationTxtfile.swift; sourceTree = "<group>"; };
@@ -141,6 +143,14 @@
 			path = doctor;
 			sourceTree = "<group>";
 		};
+		533379F2203C95E40012A7FC /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				533379F3203C965F0012A7FC /* FirstLastVC.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		BC74CE83203870C7002DFEF1 /* HelperClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +170,7 @@
 		BC74CE942038718A002DFEF1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BC74CE96203871C1002DFEF1 /* signUp */,
+				533379F2203C95E40012A7FC /* SignUp */,
 				BC74CE95203871B7002DFEF1 /* login */,
 			);
 			path = Controller;
@@ -172,13 +182,6 @@
 				BC76A23F203B6A0200306F84 /* loginVC.swift */,
 			);
 			path = login;
-			sourceTree = "<group>";
-		};
-		BC74CE96203871C1002DFEF1 /* signUp */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = signUp;
 			sourceTree = "<group>";
 		};
 		BC74CE9720387205002DFEF1 /* ServireManger */ = {
@@ -387,6 +390,7 @@
 				4C181F3320323E3D006743F3 /* ViewController.swift in Sources */,
 				BC74CE992038722A002DFEF1 /* Api.swift in Sources */,
 				BC74CE8D203870C7002DFEF1 /* AppManager.swift in Sources */,
+				533379F4203C965F0012A7FC /* FirstLastVC.swift in Sources */,
 				BC74CEAD20387A4F002DFEF1 /* doctorkind.swift in Sources */,
 				BC74CEA32038762C002DFEF1 /* languageModel.swift in Sources */,
 				BC74CE92203870C7002DFEF1 /* internetCheckView.swift in Sources */,

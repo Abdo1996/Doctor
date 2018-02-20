@@ -54,4 +54,9 @@ class Validator {
         }
         return validation
     }
+    
+    class func validateFirstLast(text: String) -> Bool {
+        
+        return (text.characters.count != 0 && !text.isNumber)
+    }
 }

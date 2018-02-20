@@ -552,10 +552,10 @@
             </objects>
             <point key="canvasLocation" x="80.799999999999997" y="843.32833583208401"/>
         </scene>
-        <!--View Controller-->
+        <!--First LastVC-->
         <scene sceneID="Tsc-ry-LWw">
             <objects>
-                <viewController id="kkO-yw-Pj4" sceneMemberID="viewController">
+                <viewController id="kkO-yw-Pj4" customClass="FirstLastVC" customModule="doctor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sqf-0N-SAK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -634,7 +634,8 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="oNT-lO-Hlf" kind="show" id="pFK-OD-Jjj"/>
+                                    <action selector="firstlastAction:" destination="kkO-yw-Pj4" eventType="touchUpInside" id="Bj6-JQ-V5j"/>
+                                    <segue destination="oNT-lO-Hlf" kind="show" identifier="firstlastSegue" id="pFK-OD-Jjj"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eN5-XY-m5Y" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
@@ -693,10 +694,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YGg-xG-raC"/>
                     </view>
+                    <connections>
+                        <outlet property="firstText" destination="R0F-kY-Yte" id="pWY-Wt-ar8"/>
+                        <outlet property="lastText" destination="eN5-XY-m5Y" id="Lo8-jB-smA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jvJ-oQ-hrS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="895" y="843"/>
+            <point key="canvasLocation" x="818" y="843"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2rc-2e-zUI">
@@ -1087,9 +1092,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="pFK-OD-Jjj"/>
-        <segue reference="0bT-Yx-iCQ"/>
+        <segue reference="8dL-gT-DxV"/>
         <segue reference="0EU-DB-Bne"/>
-        <segue reference="iGf-gm-KX9"/>
+        <segue reference="MKL-re-9Op"/>
         <segue reference="KQO-fC-eO5"/>
         <segue reference="XyW-pg-V1M"/>
     </inferredMetricsTieBreakers>
